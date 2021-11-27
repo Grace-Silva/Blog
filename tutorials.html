@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Responsive Design Label -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+    
+    <title>Gizmo Blog</title>
+    
+    <!-- JQuery, Font Awesome, Fonts Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Rubik&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Styles and Script -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Start Header Container -->
+    <header>
+        <!-- Start Header Content -->
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <h1><b>Gizmo</b>Corp</h1>
+            </div>
+            <!-- Start Menu -->
+            <div class="menu" id="show">
+                <nav> <!-- Start NavBar -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav> <!-- End NavBar -->
+            </div> <!-- End Menu -->
+        </div> <!-- End Header Content -->
+        
+        <!-- Icon Menu -->
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+    </header> 
+    <!-- End Header Container -->
+    
+    
+    <!-- Start Cover Container -->
+    <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>Tutorials Section!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quisquam voluptatem, magnam cupiditate doloremque, totam odio deserunt dolores impedit quis quas eum eligendi sed atque tempore nam? Nam assumenda, ullam.</p>
+        </div>
+    </div>
+    <!-- End Cover Container -->
+    
+    
+    <div class="container-post">
+      
+      <!-- Inputs -->
+      <input type="radio" id="All" name="categories" value="All">
+      <input type="radio" id="Programming" name="categories" value="Programming">
+      <input type="radio" id="Games" name="categories" value="Games">
+      <input type="radio" id="Graphic Design" name="categories" value="Graphic Design">
+      <input type="radio" id="Web Design" name="categories" value="Web Design">
+      <input type="radio" id="Other" name="categories" value="Other">
+      
+      <!-- Container Categories -->
+      <div class="container-category">
+          <label for="All">All</label>
+          <label for="Programming">Programming</label>
+          <label for="Games">Games</label>
+          <label for="Graphic Design">Graphic Design</label>
+          <label for="Web Design">Web Design</label>
+          <label for="Other">Other</label>
+      </div>
+      
+      
+      <!-- Posts -->
+       <div class="posts">
+        
+        <!-- Programming -->
+        <div class="post" data-category="Programming">
+            
+            <div class="ctn-img"> 
+            <img src="img/code1.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Programming</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Programming">
+            
+            <div class="ctn-img"> 
+            <img src="img/code2.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Programming</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Programming">
+            
+            <div class="ctn-img"> 
+            <img src="img/code3.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Programming</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+          <!-- Games -->
+        <div class="post" data-category="Games">
+            
+            <div class="ctn-img"> 
+            <img src="img/games1.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Games</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Games">
+            
+            <div class="ctn-img"> 
+            <img src="img/games2.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Games</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Games">
+            
+            <div class="ctn-img"> 
+            <img src="img/games3.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Games</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <!-- Graphic Design -->
+        
+        <div class="post" data-category="Graphic Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/graphicdesign1.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Graphic Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+                
+        <div class="post" data-category="Graphic Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/graphicdesign2.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Graphic Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>  
+              
+        <div class="post" data-category="Graphic Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/graphicdesign3.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Graphic Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <!-- Web Design -->
+        
+        <div class="post" data-category="Web Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/ux-g598f1b0d8_1280.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Web Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Web Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/webdesign2.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Web Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post" data-category="Web Design">
+            
+            <div class="ctn-img"> 
+            <img src="img/webdesign3.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Web Design</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <!-- Other -->
+        
+        <div class="post">
+            
+            <div class="ctn-img"> 
+            <img src="img/other1.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Other</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+        
+        <div class="post">
+            
+            <div class="ctn-img"> 
+            <img src="img/other2.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Other</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+                  
+        <div class="post">
+            
+            <div class="ctn-img"> 
+            <img src="img/other3.jpg" alt="">
+            </div>
+            <h2>Tutorial's Title</h2>
+            <span>Day / Month /Year Hour:Hour</span>
+            <ul class="ctn-tag">
+                <li>Other</li>
+            </ul>
+            
+            <a href=""><button>Read More <i class="fas fa-angle-double-right"></i></button></a>
+            
+        </div>
+         
+        </div>
+    </div>
+    
+    <!-- Start Footer -->
+    <div class="content-footer">
+        <footer>
+            <!-- Logo -->
+            <div class="logo-footer">
+                <img src="img/Evelyn.png" alt="">
+            </div>
+            
+            <!-- Social Media -->
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+            <hr>    <!-- CopyRigth -->
+            <h4>2021 <i class="fas fa-heart"></i> - All Rigth Reserved ©</h4>
+            
+        </footer>
+    </div>
+    <!-- End Footer -->
+    
+    <script src="main.js"></script>
+</body>
+</html>
